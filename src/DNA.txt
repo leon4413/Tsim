@@ -1,0 +1,32 @@
+DNA is an array for the live_object class.
+array lenght: 8
+
+
+0 - DNA_deviancy : 
+how much the DNA array changes every reproduction cycle
+
+## caps
+
+1 - energy_cap :
+how much energy can the entity contain
+
+2 - food_cap :
+how much food can the entity contain
+
+3 - water_cap :
+how much water can the entity contain
+
+## uses
+
+4 - energy_use :
+how quickly does the entity use energy (and heat itself)
+
+5 - food_use :
+how quickly does the entity transform food in energy 
+
+6 - water_use :
+?? needs side effect ??
+
+7 - reproduciton rate :
+how quickly the entity tries to reproduce
+
