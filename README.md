@@ -1,9 +1,9 @@
 
 
 - make plants:
-	*! create food chain algorithm
-	*! balance everything ( make them survivable )
-	*! render plant body
+	* ! create food chain algorithm
+	* ! balance everything ( make them survivable )
+	* ! render plant body
 	* create node standard for plants (to make branches and stuff)
 	* create reproduction algorithm
 
