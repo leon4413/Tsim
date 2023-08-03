@@ -8,10 +8,9 @@
 
 
 /* live object contructor */
-live_object::live_object() {
+live_object::live_object(std::vector<live_object*> live_array) {
 	
 	live_array.push_back(this);
-
 }
 
 /* live object update status
@@ -38,15 +37,35 @@ void live_object::reproduce() {
 void live_object::render() {
 	//render stuff
 	
-	glEnableClientState(GL_VERTEX_ARRAY);
+	/*glEnableClientState(GL_VERTEX_ARRAY);
 
 	glVertexPointer(3, GL_FLOAT, 0, lines);
 	glDrawArrays(GL_LINES, 0 ,2);
 
 	glDisableClientState(GL_VERTEX_ARRAY);
-
+*/
+	glBegin(GL_LINES);
+		//glVertex3f();
+	glEnd();
+	
 }
 
 void live_object::remesh() {
 	
+}
+
+node::node(float x, float y, float z) {
+	pos[0] = x;
+	pos[0] = y;
+	pos[0] = z;
+}
+
+void node::add_pos(float x, float y, float z) {
+	//n_node = new node(x,y,z);
+	node n_node(x,y,z);
+	this->con.push_back(n_node*);
+}
+
+void node::add_node(node a) {
+	this->con.push_back(a*);
 }

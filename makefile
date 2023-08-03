@@ -1,5 +1,5 @@
 make:
-	g++ src/*.cpp -o bin -lsfml-graphics -lsfml-window -lsfml-system -lGLU -lGL
+	g++ src/*.cpp -Wall -Wextra -Werror -g -o bin -lsfml-graphics -lsfml-window -lsfml-system -lGLU -lGL
 	./bin
 	rm bin
 

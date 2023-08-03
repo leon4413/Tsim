@@ -15,18 +15,13 @@ public:
 	float v_angle = 0.0f;
 };
 
-struct point3f {
-	float x;
-	float y;
-	float z;
+/*
+class node {
+	float pos[3];
+	std::vector<node*> con;
 };
+*/
 
-struct node {
-	point3f pos;
-	std::vector<node> con;
-};
-
-extern std::vector<live_object*> live_array;
 
 /* GLOBAL VARIABLES 
  * MAP is for defining the map dimensions

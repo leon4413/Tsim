@@ -14,6 +14,16 @@ class g_object {
 		float *model;
 };
 
+class node {
+public:
+	float pos[3] = {0.0f, 0.0f, 0.0f};
+	std::vector<node*> con = {};
+
+	node(float x, float y, float z);
+
+	void add_pos(float x, float y, float z);
+	void add_node(node a);
+};
 
 /* live object, to be updated every cycle */
 class live_object {
@@ -21,8 +31,7 @@ class live_object {
 		float pos;
 		float h_angle;
 		float v_angle;
-		float* lines;
-		std::vector<point3f> nodes;
+		std::vector<node*> nodes;
 
 		float energy;
 		float food;
@@ -34,7 +43,7 @@ class live_object {
 		float DNA[8];
 
 		//constructor
-		live_object();
+		live_object(std::vector<live_object*> live_array);
 
 		// update energy, food and water every *dt* microseconds
 		void update_status(float dt);

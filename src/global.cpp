@@ -15,8 +15,6 @@ float PI = 3.1415926f;
  * scale is the scale
  * cam_speed is the movement speed of the camera*/
 
-std::vector<live_object*> live_array = {};
-
 int MAP_X_MAX = 10;
 int MAP_Y_MAX = 10;
 int MAP_Z_MAX = 10;
