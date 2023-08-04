@@ -26,12 +26,11 @@ public:
 };
 
 /* live object, to be updated every cycle */
-class live_object {
+class entity {
 	public:
 		float pos;
 		float h_angle;
 		float v_angle;
-		std::vector<node*> nodes;
 
 		float energy;
 		float food;
@@ -40,25 +39,16 @@ class live_object {
 
 		/* DNA is an array witch contains info about the object
 		 * refer to DNA.txt*/
-		float DNA[8];
+		float DNA[8] = {0.0f, 10.0f, 10.0f, 10.0f, 1.0f, 1.0f, 1.0f, 1.0f};
 
 		//constructor
-		live_object(std::vector<live_object*> live_array);
+		entity();
 
 		// update energy, food and water every *dt* microseconds
 		void update_status(float dt);
 
-		// try reproduction
-		void reproduce();
-
 		/* render object */
 		void render();
-
-		// remesh based on nodes
-		void remesh();
 };
-
-
-
 
 #endif //ENTITY

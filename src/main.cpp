@@ -17,8 +17,6 @@
 #include "input.h"
 // ---
 
-std::vector<live_object*> live_array = {};
-
 /* ## MAIN FUNCTION ## */
 int main() {
     sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "SFML Vector Graphics");
@@ -31,9 +29,6 @@ int main() {
 
 	srand(seed);
 	self_camera cam;
-
-	live_object stuff(live_array); 
-
 
     // Set up OpenGL states
     glEnable(GL_DEPTH_TEST);
@@ -75,12 +70,7 @@ int main() {
 		dt += dt_c; //gen. time
 		while (dt > sf::microseconds(0)) {
 
-			dt = dt - sf::microseconds(1000); //eat time
-
-			for (int i = 0; i < (int)live_array.size(); i++){
-				live_array[i]->update_status(dt.asMicroseconds());
-			}
-
+			dt = dt - sf::microseconds(1000); //eat time	
 		};
 
 		/* Handle Keyboard */
@@ -93,9 +83,6 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		// TODO : call every object render function
-		for (int i = 0; i < (int)live_array.size(); i++){
-			live_array[i]->render();
-		}
 
         // Set up the model-view matrix
         glMatrixMode(GL_MODELVIEW);

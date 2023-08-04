@@ -15,6 +15,8 @@ public:
 	float v_angle = 0.0f;
 };
 
+extern entity* entity_array;
+
 /*
 class node {
 	float pos[3];
