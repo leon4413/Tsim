@@ -1,7 +1,10 @@
 #include "global.h"
 #include "input.h"
 
-void key_pressed(camera_object* cam, float dt_c, sf::Window* window){
+#include <math.h>
+#include <SFML/Window.hpp>
+
+void key_pressed(self_camera* cam, float dt_c, sf::Window* window){
 	float dt = dt_c * pow(10, -6);
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {cam->pos[0] += cam_speed * (dt) * cos(cam->h_angle); cam->pos[2] += cam_speed * (dt) * sin(-cam->h_angle);};
@@ -27,23 +30,3 @@ void key_pressed(camera_object* cam, float dt_c, sf::Window* window){
 
 
 }
-
-void event_check(sf::Window* window) {
-	sf::Event event;
-	while (window->pollEvent(event)) {
-		switch(event.type){
-
-		case sf::Event::Closed:
-			window->close();
-			break;
-
-		case sf::Event::KeyPressed:
-			//check if esc is pressed
-			if( event.key.code == sf::Keyboard::Escape ) window->close();
-			break;
-
-		default:
-			break;
-		}
-	}
-};

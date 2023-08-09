@@ -1,16 +1,11 @@
 #include "entity.h"
 #include "global.h"
 
-#include <math.h>
-#include <vector>
-#include <SFML/OpenGL.hpp>
-#include <GL/glu.h>
-
-
 /* live object contructor */
-live_object::live_object(std::vector<live_object*> live_array) {
-	
-	live_array.push_back(this);
+live_object::live_object() {
+	object_array.push_back(this);
+
+	//branch_nodes = {{0.f, 0.f, 0.f} , {0.f, 10.f, 0.f}, {0.f, 20.f, 0.f}};
 }
 
 /* live object update status
@@ -29,11 +24,6 @@ void live_object::update_status(float dt_c) {
 
 }
 
-/* live object reproduction */
-void live_object::reproduce() {
-
-}
-
 void live_object::render() {
 	//render stuff
 	
@@ -44,28 +34,20 @@ void live_object::render() {
 
 	glDisableClientState(GL_VERTEX_ARRAY);
 */
-	glBegin(GL_LINES);
-		//glVertex3f();
+	glBegin(GL_LINE_STRIP);
+		for(int i = 0; i < (int)(sizeof(branch_nodes) / ( 3 * sizeof(float) ) ); i++ ){
+			glVertex3f(branch_nodes[i][0], branch_nodes[i][1], branch_nodes[i][2]);
+		};
 	glEnd();
 	
 }
 
-void live_object::remesh() {
-	
+void real_object::update_status(float dt_c){
+	//nothig for now
+	dt_c = dt_c;
 }
 
-node::node(float x, float y, float z) {
-	pos[0] = x;
-	pos[0] = y;
-	pos[0] = z;
-}
-
-void node::add_pos(float x, float y, float z) {
-	//n_node = new node(x,y,z);
-	node n_node(x,y,z);
-	this->con.push_back(n_node*);
-}
-
-void node::add_node(node a) {
-	this->con.push_back(a*);
-}
+void real_object::render() {
+	//nothing
+	std::cout << "rendering stuff \n";	
+}; 

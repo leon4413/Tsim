@@ -1,8 +1,23 @@
+//#define DEBUG
+
+#include <iostream>
+#include <math.h>
+#include <stdlib.h>
+#include <vector>
+#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
+#include <SFML/OpenGL.hpp>
+#include <GL/glu.h>
+
 //self made libs - 
 #include "global.h"
-#include "input.h"
+#include "model.h"
+#include "ground.h"
 #include "entity.h"
+#include "input.h"
 // ---
+
+std::vector<live_object*> live_array = {};
 
 /* ## MAIN FUNCTION ## */
 int main() {
@@ -15,9 +30,10 @@ int main() {
 	}
 
 	srand(seed);
-    camera_object cam;
+	self_camera cam;
 
-	live_object test;
+	live_object stuff(live_array); 
+
 
     // Set up OpenGL states
     glEnable(GL_DEPTH_TEST);
@@ -31,19 +47,38 @@ int main() {
     while (window.isOpen()) {
 
 		/* -- Event Loop -- */
-		event_check(&window);
+        sf::Event event;
+        while (window.pollEvent(event)) {
+			switch(event.type){
+
+				case sf::Event::Closed:
+					window.close();
+					break;
+
+				case sf::Event::KeyPressed:
+					if( event.key.code == sf::Keyboard::Escape ) window.close();
+					break;
+
+				default:
+					break;
+			}
+        }
+
 
 		/* -- Physiscs Engine -- */
 		sf::Time dt_c = clock.restart();
 		
+		#ifdef DEBUG
+		std::cout << dt_c.asMicroseconds() << " :: " << (1000000/dt_c.asMicroseconds()) << "\n";
+		#endif
+
 		dt += dt_c; //gen. time
-		//physics cycle
 		while (dt > sf::microseconds(0)) {
 
 			dt = dt - sf::microseconds(1000); //eat time
 
-			for (int i = 0; i < (int)object_array.size(); i++){
-				((real_object*)object_array[i])->update_status(dt.asMicroseconds());
+			for (int i = 0; i < (int)live_array.size(); i++){
+				live_array[i]->update_status(dt.asMicroseconds());
 			}
 
 		};
@@ -57,7 +92,12 @@ int main() {
 		// Clear the buffer
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		// Set up the model-view matrix
+		// TODO : call every object render function
+		for (int i = 0; i < (int)live_array.size(); i++){
+			live_array[i]->render();
+		}
+
+        // Set up the model-view matrix
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
 
@@ -65,11 +105,6 @@ int main() {
 		//float v_angle_d = -(cam.v_angle * 180)/PI;
 		glRotatef(h_angle_d, 0.f, 1.f, 0.f);
         glTranslatef(cam.pos[0], cam.pos[1], cam.pos[2]); 
-
-		// TODO : call every object render function
-		for (int i = 0; i < (int)object_array.size(); i++){
-			((real_object*)object_array[i])->render();
-		}
 
         window.display();
     }

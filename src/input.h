@@ -1,9 +1,10 @@
-#include <SFML/Window.hpp>
+#include "global.h"
 
 #ifndef KEYBOARD
 #define KEYBOARD
 
+void key_pressed(camera_object* cam, float dt_c, sf::Window* window);
 
-void key_pressed(self_camera* cam, float dt_c, sf::Window* window);
+void event_check(sf::Window* window);
 
 #endif //KEYBOARD

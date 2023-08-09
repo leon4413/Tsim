@@ -1,5 +1,5 @@
 DNA is an array for the live_object class.
-array lenght: 8
+array lenght: 9
 
 
 0 - DNA_deviancy : 
@@ -27,6 +27,11 @@ how quickly does the entity transform food in energy
 6 - water_use :
 ?? needs side effect ??
 
+## misc
+
 7 - reproduciton rate :
 how quickly the entity tries to reproduce
+
+8 - optimal temperature :
+at what temperature should the entity be
 

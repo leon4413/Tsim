@@ -1,64 +1,49 @@
 #ifndef ENTITY
 #define ENTITY
 
-#include <vector>
-
 #include "global.h"
 
-/* ground object, not alive */
-class g_object {
+class real_object {
 	public:
 		float pos;
 		float h_angle;
 		float v_angle;
-		float *model;
-};
 
-class node {
-public:
-	float pos[3] = {0.0f, 0.0f, 0.0f};
-	std::vector<node*> con = {};
+		virtual void update_status(float dt);
+		virtual void render();
 
-	node(float x, float y, float z);
+		//physics update
+		//virtual void update_status(float dt);
 
-	void add_pos(float x, float y, float z);
-	void add_node(node a);
+		// render object 
+		//virtual void render();
+		
+		/* -- how tf do you use virtual functions? */
+		
+
 };
 
 /* live object, to be updated every cycle */
-class live_object {
+class live_object : public real_object {
 	public:
-		float pos;
-		float h_angle;
-		float v_angle;
-		std::vector<node*> nodes;
-
-		float energy;
-		float food;
-		float water; //TODO : find use for water
-		float temp;
+		float energy = 100.f;
+		float food = 100.f;
+		float water = 100.f; //TODO : find use for water
+		float temp = 25.f;
 
 		/* DNA is an array witch contains info about the object
 		 * refer to DNA.txt*/
-		float DNA[8];
+		float DNA[8] = {100.f, 100.f, 100.f, 0.1, 0.1, 0.1, 0.f};
+
+		//keep tracks of the position of the various nodes
+		float branch_nodes[3][3] = {{0.f, 0.f, 0.f} , {0.f, 10.f, 0.f}, {0.f, 20.f, 10.f}};
+		;
 
 		//constructor
-		live_object(std::vector<live_object*> live_array);
+		live_object();
 
-		// update energy, food and water every *dt* microseconds
 		void update_status(float dt);
-
-		// try reproduction
-		void reproduce();
-
-		/* render object */
 		void render();
-
-		// remesh based on nodes
-		void remesh();
 };
-
-
-
 
 #endif //ENTITY
