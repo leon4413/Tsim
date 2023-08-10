@@ -1,11 +1,28 @@
 #include "entity.h"
 #include "global.h"
 
+/* This is the recursive function i use to render the plants
+ * I don't think this is efficent enough, and i will have to
+ * change it! */
+void render_node(branch_node &node){
+	if (node.con.empty()) { 
+		// Recursion end
+		glVertex3f(node.pos[0], node.pos[1], node.pos[2]);
+	} else { 
+		// Recursion
+		glVertex3f(node.pos[0], node.pos[1], node.pos[2]);
+
+		for (int i = 0; i < (int)node.con.size(); i++) {
+			render_node(*(branch_node*)node.con[i]);
+		};
+
+	}
+};
+
+
 /* live object contructor */
 live_object::live_object() {
 	object_array.push_back(this);
-
-	//branch_nodes = {{0.f, 0.f, 0.f} , {0.f, 10.f, 0.f}, {0.f, 20.f, 0.f}};
 }
 
 /* live object update status
@@ -25,19 +42,8 @@ void live_object::update_status(float dt_c) {
 }
 
 void live_object::render() {
-	//render stuff
-	
-	/*glEnableClientState(GL_VERTEX_ARRAY);
-
-	glVertexPointer(3, GL_FLOAT, 0, lines);
-	glDrawArrays(GL_LINES, 0 ,2);
-
-	glDisableClientState(GL_VERTEX_ARRAY);
-*/
-	glBegin(GL_LINE_STRIP);
-		for(int i = 0; i < (int)(sizeof(branch_nodes) / ( 3 * sizeof(float) ) ); i++ ){
-			glVertex3f(branch_nodes[i][0], branch_nodes[i][1], branch_nodes[i][2]);
-		};
+	glBegin(GL_LINES);
+		render_node(root_node);
 	glEnd();
 	
 }

@@ -3,6 +3,19 @@
 
 #include "global.h"
 
+struct branch_node {
+	float pos[3];
+	std::vector<void*> con;
+
+	void add_node_pos(float x, float y, float z) {
+		branch_node node;
+		node.pos[0] = x;
+		node.pos[1] = y;
+		node.pos[2] = z;
+		con.push_back((void*)&node);
+	}
+};
+
 class real_object {
 	public:
 		float pos;
@@ -35,9 +48,8 @@ class live_object : public real_object {
 		 * refer to DNA.txt*/
 		float DNA[8] = {100.f, 100.f, 100.f, 0.1, 0.1, 0.1, 0.f};
 
-		//keep tracks of the position of the various nodes
-		float branch_nodes[3][3] = {{0.f, 0.f, 0.f} , {0.f, 10.f, 0.f}, {0.f, 20.f, 10.f}};
-		;
+		//this is the core node for the plant, every node is connected to this
+		branch_node root_node;
 
 		//constructor
 		live_object();
