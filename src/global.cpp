@@ -8,6 +8,8 @@
 float PI = 3.1415926f;
 
 int FPS_LIMIT = 15;
+//float PHY_TICK = 1000.0f;
+float PHY_TICK = 100000.0f;
 
 int seed = 123456789;
 

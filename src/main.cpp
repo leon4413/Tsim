@@ -4,6 +4,8 @@
 #include "entity.h"
 // ---
 
+debug console; //cheecky stuff eheheh (defindef in global.h)
+
 /* ## MAIN FUNCTION ## */
 int main() {
     sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "SFML Vector Graphics");
@@ -17,12 +19,18 @@ int main() {
 	srand(seed);
     camera_object cam;
 
+	/* test plant */
 	live_object test;
 	test.root_node.pos[0] = 0.f;
 	test.root_node.pos[1] = 0.f;
 	test.root_node.pos[2] = 0.f;
 
 	test.root_node.add_node_pos(0.0f, 10.f, 0.0f);
+
+	test.color[0] = 0.f;
+	test.color[2] = 0.f;
+	/* -- test plant -- */
+
 
     // Set up OpenGL states
     glEnable(GL_DEPTH_TEST);
@@ -45,10 +53,12 @@ int main() {
 		//physics cycle
 		while (dt > sf::microseconds(0)) {
 
-			dt = dt - sf::microseconds(1000); //eat time
+			dt = dt - sf::microseconds(PHY_TICK); //eat time
+
+			console.log("physics cycle");
 
 			for (int i = 0; i < (int)object_array.size(); i++){
-				((real_object*)object_array[i])->update_status(dt.asMicroseconds());
+				((real_object*)object_array[i])->update_status(PHY_TICK);
 			}
 
 		};

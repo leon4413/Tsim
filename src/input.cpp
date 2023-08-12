@@ -14,18 +14,18 @@ void key_pressed(camera_object* cam, float dt_c, sf::Window* window){
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {cam->vel[1] += cam_speed * (dt);};
 
 
-	/* Da fixare! devo integrare il movimento del mouse per ottenere lo spostamento desiderato
-	 * su tutto lo schermo !*/
+	/* integro il movimento del mouse per ottenere la direzione corrente della telecamera
+	 * Funziona anche per il movimento verticale, anche se la telecamera ancora non lo supporta
+	 * Continua a funzionare anche in background, TODO: sistemare */
 	sf::Vector2i mouse_pos = sf::Mouse::getPosition(*window);
-	sf::Mouse::setPosition(sf::Vector2i(50,50), *window);
 
-	cam->h_angle += -(mouse_pos.x - 50) * cam_sensitivity;
-	cam->v_angle += -(mouse_pos.y - 50) * cam_sensitivity;
+	cam->h_angle += -(mouse_pos.x - cam->mouse_pos_int.x) * cam_sensitivity;
+	cam->v_angle += -(mouse_pos.y - cam->mouse_pos_int.y) * cam_sensitivity;
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {cam->h_angle -= cam_sensitivity * 100.0;};
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))  {cam->h_angle += cam_sensitivity * 100.0;};
 
-
+	cam->mouse_pos_int = mouse_pos;
 }
 
 void event_check(sf::Window* window) {
