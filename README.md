@@ -3,8 +3,10 @@
 - make plants:
 	* ! create food chain algorithm
 	* ! balance everything ( make them survivable )
-	* ! render plant body
-	* create node standard for plants (to make branches and stuff)
+	* ! render plant body (~ kinda done, but to remake)
+        + find a non recursive function 
+	* create node standard for plants (to make branches and stuff) (~ kinda done)
+        + add size of node
 	* create reproduction algorithm
 
 - plant growth:

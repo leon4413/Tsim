@@ -39,3 +39,18 @@ at what temperature should the entity be
 
 9 - grow rate :
 probability per tick
+
+10 - minimum energy to grow:
+minimum amount of energy for the plant to consider growing
+
+11 - minimum energy to reproduce:
+minimum amount of energy for the plant to consider reproduction
+
+12 - energy_sharing_percentual:
+from 0 to 1
+
+13 - food_sharing_percentual:
+from 0 to 1
+
+14 - water_sharing_percentual:
+from 0 to 1

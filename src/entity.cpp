@@ -48,6 +48,7 @@ live_object::live_object() {
 void live_object::update_status(float dt_c) {
 	float dt = dt_c * pow(10,-6);
 
+	// TODO multiply by node count
 	energy -= DNA[4] * dt;
 	temp += DNA[4] * dt;
 
@@ -60,14 +61,60 @@ void live_object::update_status(float dt_c) {
 		water -= DNA[6] * dt;
 		temp -= DNA[6] * dt;
 	}
-	if ( (float)(rand()%10000)/100 < DNA[8] ) { //grow plant
+
+	if ( (float)(rand()%10000)/100 < DNA[9] && (energy > DNA[10]) ) { //grow plant
 		this->grow(root_node);
 		node_count = this->count_nodes(root_node, 1);
+		energy -= 20.f;
+	}
+
+	//TODO maybe move this into a method!
+	if ( (float)(rand()%10000)/100 < DNA[7] && (energy > DNA[11]) ) { //reproduce
+		live_object* offspring = new live_object;
+
+		float offset[3] = { 
+			(float)(rand() % 100 - 50), 
+			0.f,
+			(float)(rand() % 100 - 50)
+		};
+
+		offspring->root_node.pos[0] = this->root_node.pos[0] + offset[0];
+		offspring->root_node.pos[1] = this->root_node.pos[1] + offset[1];
+		offspring->root_node.pos[2] = this->root_node.pos[2] + offset[2];
+
+		//add random color idk
+		offspring->color[0] = (float)(rand() % 100) / 100;
+		offspring->color[1] = (float)(rand() % 100) / 100;
+		offspring->color[2] = (float)(rand() % 100) / 100;
+
+		//TODO share energy, food and water
+		offspring->energy = energy * DNA[12];
+		energy = energy * (1.f - DNA[12]);
+		offspring->food = food * DNA[13];
+		food = food * (1.f - DNA[13]);
+		offspring->water = water * DNA[14];
+		water = water * (1.f - DNA[14]);
 	}
 
 	std::cout << "status update on : " << this << "  -- dt : " << dt << "\n";
-	std::cout << "energy : " << energy << "\n food : " << food << "\n water : " << water << "\n temp : " << temp << "\n nodes : " << node_count << "\n";
+	std::cout << "  energy : " << energy << "\n  food : " << food << "\n  water : " << water << "\n  temp : " << temp << "\n nodes : " << node_count << "\n";
 
+	//extract stuff from ground
+	//TODO make this not random (or at least some kind of perlin noise)
+	if(food < DNA[2])
+		food  += (float)(rand() % 100 /10)*DNA[5] * dt ;
+	if(water < DNA[3])
+		water += (float)(rand() % 100 /10)*DNA[6] * dt ;
+
+	//eat branches when in need of energy, or die
+	while (energy < 0){
+		branch_node* node_eaten = this->eat_branch();
+		//TODO recount nodes
+		if (node_eaten == &root_node){
+			//die TODO
+		}
+		break;	
+	}
 }
 
 /* METHOD
@@ -149,3 +196,28 @@ int live_object::count_nodes(branch_node& node, int count){
 
 	return c_count;
 };
+
+/* METHOD
+ * name : eat_branch
+ * function : when in lack of energy the plant can eat one branch to regain some energy 
+ * */
+branch_node* live_object::eat_branch() {
+	branch_node* node = &root_node;
+	branch_node* last = &root_node;
+	
+	auto next_node_index = 0;
+
+	while (!node->con.empty()) {
+		next_node_index = rand() % node->con.size(); //pick a random direction to follow
+		last = node;
+		node = (branch_node*)node->con[next_node_index];
+	}
+
+	//vector magic
+	std::vector<void*>::iterator pos = last->con.begin() + next_node_index;
+
+	last->con.erase(pos);
+	delete node;
+	energy += 15.0f;
+	return node;
+}
