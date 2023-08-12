@@ -23,9 +23,9 @@ int main() {
 	live_object test;
 	test.root_node.pos[0] = 0.f;
 	test.root_node.pos[1] = 0.f;
-	test.root_node.pos[2] = 0.f;
+	test.root_node.pos[2] = -100.f;
 
-	test.root_node.add_node_pos(0.0f, 10.f, 0.0f);
+	test.root_node.add_node_pos(0.0f, 10.f, -100.0f);
 
 	test.color[0] = 0.f;
 	test.color[2] = 0.f;

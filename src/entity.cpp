@@ -43,7 +43,8 @@ live_object::live_object() {
 
 /* live object update status
  * Input : - delta time (in microseconds) 
- * Exec : update energy, food and water based on status */
+ * Exec : update energy, food and water based on status 
+ * problem :the rand function is not random enough, and can give rise to a growth sprint of up to 5 or 6 nodes*/
 void live_object::update_status(float dt_c) {
 	float dt = dt_c * pow(10,-6);
 
@@ -85,7 +86,7 @@ void live_object::render() {
  * this only add one node, then stops! 
  * input : node - the current node
  *		   depth - the current depth in the tree
- * problem : it might spawn more than one branch, gotta check that*/
+ * problem : the random direction and offspring gives a terrible look after the 10nth or so node*/
 void live_object::grow(branch_node &node, int depth){
 
 	if (!node.con.empty()) { //if this is not an end branch
@@ -103,6 +104,7 @@ void live_object::grow(branch_node &node, int depth){
 			} else { //recursion
 				int next_node_index = rand() % node.con.size(); //pick a random direction to follow
 				this->grow(*((branch_node*)node.con[next_node_index]), (depth + 1)); //call function
+				break;
 			}
 		}
 	} else { //if this is a end of branch, add node here
