@@ -11,7 +11,8 @@ void key_pressed(camera_object* cam, float dt_c, sf::Window* window){
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {cam->pos[0] -= cam_speed * (dt) * sin(cam->h_angle); cam->pos[2] -= cam_speed * (dt) * cos(cam->h_angle);};
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {cam->pos[0] += cam_speed * (dt) * sin(cam->h_angle); cam->pos[2] += cam_speed * (dt) * cos(cam->h_angle);};
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {cam->vel[1] += cam_speed * (dt);};
+	//if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {cam->vel[1] += cam_speed * (dt);};
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) { if (PHY_RUNNING) {PHY_RUNNING = false;} else {PHY_RUNNING = true;};};
 
 
 	/* integro il movimento del mouse per ottenere la direzione corrente della telecamera

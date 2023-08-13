@@ -20,15 +20,15 @@ int main() {
     camera_object cam;
 
 	/* test plant */
-	live_object test;
-	test.root_node.pos[0] = 0.f;
-	test.root_node.pos[1] = 0.f;
-	test.root_node.pos[2] = -100.f;
+	live_object* test = new live_object;
+	test->root_node.pos[0] = 0.f;
+	test->root_node.pos[1] = 0.f;
+	test->root_node.pos[2] = -100.f;
 
-	test.root_node.add_node_pos(0.0f, 10.f, -100.0f);
+	test->root_node.add_node_pos(0.0f, 10.f, -100.0f);
 
-	test.color[0] = 0.f;
-	test.color[2] = 0.f;
+	test->color[0] = 0.f;
+	test->color[2] = 0.f;
 	/* -- test plant -- */
 
 
@@ -47,20 +47,23 @@ int main() {
 		event_check(&window);
 
 		/* -- Physiscs Engine -- */
-		sf::Time dt_c = clock.restart();
 		
-		dt += dt_c; //gen. time
-		//physics cycle
-		while (dt > sf::microseconds(0)) {
+		sf::Time dt_c = clock.restart();
 
-			dt = dt - sf::microseconds(PHY_TICK); //eat time
+		if (PHY_RUNNING) {
+			dt += dt_c * time_speed; //gen. time
+						//physics cycle
+			while (dt > sf::microseconds(0)) {
 
-			console.log("physics cycle");
+				dt = dt - sf::microseconds(PHY_TICK); //eat time
 
-			for (int i = 0; i < (int)object_array.size(); i++){
-				((real_object*)object_array[i])->update_status(PHY_TICK);
-			}
+				console.log("physics cycle");
 
+				for (int i = 0; i < (int)object_array.size(); i++){
+					((real_object*)object_array[i])->update_status(PHY_TICK);
+				}
+
+			};
 		};
 
 		/* Handle Keyboard */
@@ -81,7 +84,7 @@ int main() {
 		glRotatef(h_angle_d, 0.f, 1.f, 0.f);
         glTranslatef(cam.pos[0], cam.pos[1], cam.pos[2]); 
 
-		// TODO : call every object render function
+		// TODO: call every object render function
 		for (int i = 0; i < (int)object_array.size(); i++){
 			((real_object*)object_array[i])->render();
 		}

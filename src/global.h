@@ -52,6 +52,10 @@ extern float PI ;
 
 extern int FPS_LIMIT ;
 extern float PHY_TICK ; //in microseconds!
+extern bool PHY_RUNNING ;
+extern float time_speed ;
+
+extern int DNA_max ;
 
 extern int seed ;
 

@@ -1,0 +1,3722 @@
+g++ src/*.cpp -Wall -Wextra -Werror -g -o bin -lsfml-graphics -lsfml-window -lsfml-system -lGLU -lGL
+./bin
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 100.5
+  food : 98.95
+  water : 99.45
+  temp : 25
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 101
+  food : 97.9
+  water : 98.9
+  temp : 25
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 101.5
+  food : 96.85
+  water : 98.35
+  temp : 25
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 102
+  food : 95.8
+  water : 97.8
+  temp : 25
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 102.5
+  food : 94.75
+  water : 97.25
+  temp : 25
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 83
+  food : 93.7
+  water : 96.7
+  temp : 25
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 84.5
+  food : 90.55
+  water : 95.05
+  temp : 25
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 86
+  food : 87.4
+  water : 93.4
+  temp : 25
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 87.5
+  food : 84.25
+  water : 91.75
+  temp : 25
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 69
+  food : 81.1
+  water : 90.1
+  temp : 25
+ nodes : 4
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 71
+  food : 76.9
+  water : 87.9
+  temp : 25
+ nodes : 4
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 73
+  food : 72.7
+  water : 85.7
+  temp : 25
+ nodes : 4
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 75
+  food : 68.5
+  water : 83.5
+  temp : 25
+ nodes : 4
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 77
+  food : 64.3
+  water : 81.3
+  temp : 25
+ nodes : 4
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 79
+  food : 60.1
+  water : 79.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 100.489
+  food : 98.967
+  water : 99.49
+  temp : 25.034
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 81
+  food : 55.9
+  water : 76.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 100.978
+  food : 97.934
+  water : 98.98
+  temp : 25.068
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 83
+  food : 51.7
+  water : 74.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 101.467
+  food : 96.901
+  water : 98.47
+  temp : 25.102
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 85
+  food : 47.5
+  water : 72.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 101.956
+  food : 95.868
+  water : 97.96
+  temp : 25.136
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 87
+  food : 43.3
+  water : 70.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 102.445
+  food : 94.835
+  water : 97.45
+  temp : 25.17
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 89
+  food : 39.1
+  water : 68.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 102.934
+  food : 93.802
+  water : 96.94
+  temp : 25.204
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 91
+  food : 34.9
+  water : 65.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 83.423
+  food : 92.769
+  water : 96.43
+  temp : 25.238
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 93
+  food : 30.7
+  water : 63.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 84.401
+  food : 90.703
+  water : 95.41
+  temp : 25.306
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 95
+  food : 26.5
+  water : 61.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 85.379
+  food : 88.637
+  water : 94.39
+  temp : 25.374
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 97
+  food : 22.3
+  water : 59.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 86.357
+  food : 86.571
+  water : 93.37
+  temp : 25.442
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 100.437
+  food : 98.996
+  water : 99.415
+  temp : 24.982
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 99
+  food : 18.1
+  water : 57.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 87.335
+  food : 84.505
+  water : 92.35
+  temp : 25.51
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 100.874
+  food : 97.992
+  water : 98.83
+  temp : 24.964
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 101
+  food : 13.9
+  water : 54.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 88.313
+  food : 82.439
+  water : 91.33
+  temp : 25.578
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 101.311
+  food : 96.988
+  water : 98.245
+  temp : 24.946
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 103
+  food : 9.69998
+  water : 52.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 89.291
+  food : 80.373
+  water : 90.31
+  temp : 25.646
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 101.748
+  food : 95.984
+  water : 97.66
+  temp : 24.928
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 105
+  food : 5.49998
+  water : 50.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 90.269
+  food : 78.307
+  water : 89.29
+  temp : 25.714
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 102.185
+  food : 94.98
+  water : 97.075
+  temp : 24.91
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 107
+  food : 1.29998
+  water : 48.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 91.247
+  food : 76.241
+  water : 88.27
+  temp : 25.782
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 102.622
+  food : 93.976
+  water : 96.49
+  temp : 24.892
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 109
+  food : -2.90002
+  water : 46.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 92.225
+  food : 74.175
+  water : 87.25
+  temp : 25.85
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 103.059
+  food : 92.972
+  water : 95.905
+  temp : 24.874
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 106.8
+  food : -2.90002
+  water : 43.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 93.203
+  food : 72.109
+  water : 86.23
+  temp : 25.918
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 103.496
+  food : 91.968
+  water : 95.32
+  temp : 24.856
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 104.6
+  food : -2.90002
+  water : 41.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 94.181
+  food : 70.043
+  water : 85.21
+  temp : 25.986
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 103.933
+  food : 90.964
+  water : 94.735
+  temp : 24.838
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 102.4
+  food : -2.90002
+  water : 39.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 95.159
+  food : 67.977
+  water : 84.19
+  temp : 26.054
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 104.37
+  food : 89.96
+  water : 94.15
+  temp : 24.82
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 100.2
+  food : -2.90002
+  water : 37.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 96.137
+  food : 65.911
+  water : 83.17
+  temp : 26.122
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 104.807
+  food : 88.956
+  water : 93.565
+  temp : 24.802
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 98
+  food : -2.90002
+  water : 35.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 97.1151
+  food : 63.845
+  water : 82.15
+  temp : 26.19
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 105.244
+  food : 87.952
+  water : 92.98
+  temp : 24.784
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 95.8
+  food : -2.90002
+  water : 32.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 98.0931
+  food : 61.779
+  water : 81.13
+  temp : 26.258
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 105.681
+  food : 86.948
+  water : 92.395
+  temp : 24.766
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 93.6
+  food : -2.90002
+  water : 30.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 99.0711
+  food : 59.713
+  water : 80.11
+  temp : 26.326
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 86.118
+  food : 85.944
+  water : 91.81
+  temp : 24.748
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 91.4
+  food : -2.90002
+  water : 28.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 100.049
+  food : 57.647
+  water : 79.09
+  temp : 26.394
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 86.992
+  food : 83.936
+  water : 90.64
+  temp : 24.712
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 89.2
+  food : -2.90002
+  water : 26.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 101.027
+  food : 55.581
+  water : 78.07
+  temp : 26.462
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 87.866
+  food : 81.928
+  water : 89.47
+  temp : 24.676
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 87
+  food : -2.90002
+  water : 24.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 102.005
+  food : 53.515
+  water : 77.05
+  temp : 26.53
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 88.74
+  food : 79.92
+  water : 88.3
+  temp : 24.64
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 84.8
+  food : -2.90002
+  water : 21.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 102.983
+  food : 51.449
+  water : 76.0301
+  temp : 26.598
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 69.614
+  food : 77.912
+  water : 87.13
+  temp : 24.604
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 82.6
+  food : -2.90002
+  water : 19.7
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 103.961
+  food : 49.383
+  water : 75.0101
+  temp : 26.666
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 70.925
+  food : 74.9
+  water : 85.375
+  temp : 24.55
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 80.4
+  food : -2.90002
+  water : 17.5
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 104.939
+  food : 47.317
+  water : 73.9901
+  temp : 26.734
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 72.236
+  food : 71.888
+  water : 83.62
+  temp : 24.496
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 78.2
+  food : -2.90002
+  water : 15.3
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 105.917
+  food : 45.251
+  water : 72.9701
+  temp : 26.802
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 73.547
+  food : 68.876
+  water : 81.865
+  temp : 24.442
+ nodes : 3
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 100.466
+  food : 98.9407
+  water : 99.4519
+  temp : 25.0456
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 76
+  food : -2.90002
+  water : 13.1
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 106.895
+  food : 43.185
+  water : 71.9501
+  temp : 26.87
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 54.858
+  food : 65.864
+  water : 80.11
+  temp : 24.388
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 100.931
+  food : 97.8814
+  water : 98.9037
+  temp : 25.0911
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 73.8
+  food : -2.90002
+  water : 10.9
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 107.873
+  food : 41.119
+  water : 70.9301
+  temp : 26.938
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 56.606
+  food : 61.848
+  water : 77.77
+  temp : 24.316
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 101.397
+  food : 96.8221
+  water : 98.3556
+  temp : 25.1367
+ nodes : 1
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 80.4275
+  food : 98.99
+  water : 99.4128
+  temp : 24.9953
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 71.6001
+  food : -2.90002
+  water : 8.69999
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 108.851
+  food : 39.053
+  water : 69.9101
+  temp : 27.006
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 58.354
+  food : 57.832
+  water : 75.43
+  temp : 24.244
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 81.8624
+  food : 95.7628
+  water : 97.8074
+  temp : 25.1823
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 81.2824
+  food : 96.97
+  water : 98.2384
+  temp : 24.986
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 69.4001
+  food : -2.90002
+  water : 6.49999
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 109.829
+  food : 36.987
+  water : 68.8901
+  temp : 27.074
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 60.102
+  food : 53.816
+  water : 73.09
+  temp : 24.172
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 82.7935
+  food : 93.6442
+  water : 96.7112
+  temp : 25.2734
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 82.1373
+  food : 94.95
+  water : 97.064
+  temp : 24.9767
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 67.2001
+  food : -2.90002
+  water : 4.29999
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 110.807
+  food : 34.921
+  water : 67.8701
+  temp : 27.142
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 61.85
+  food : 49.8
+  water : 70.75
+  temp : 24.1
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 83.7247
+  food : 91.5256
+  water : 95.6149
+  temp : 25.3646
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 82.9922
+  food : 92.9299
+  water : 95.8896
+  temp : 24.9674
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 65.0001
+  food : -2.90002
+  water : 2.09999
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 111.785
+  food : 32.855
+  water : 66.8501
+  temp : 27.21
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 63.598
+  food : 45.784
+  water : 68.41
+  temp : 24.028
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 84.6559
+  food : 89.407
+  water : 94.5186
+  temp : 25.4557
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 63.8471
+  food : 90.9099
+  water : 94.7152
+  temp : 24.9581
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 62.8001
+  food : -2.90002
+  water : -0.100007
+  temp : 25
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 112.763
+  food : 30.789
+  water : 65.8301
+  temp : 27.278
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 65.346
+  food : 41.768
+  water : 66.0701
+  temp : 23.956
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 85.5871
+  food : 87.2884
+  water : 93.4223
+  temp : 25.5468
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 65.1295
+  food : 87.8799
+  water : 92.9536
+  temp : 24.9442
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 60.6001
+  food : -2.90002
+  water : -0.100007
+  temp : 27.2
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 113.741
+  food : 28.723
+  water : 64.8101
+  temp : 27.346
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 67.094
+  food : 37.752
+  water : 63.7301
+  temp : 23.884
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 86.5182
+  food : 85.1698
+  water : 92.326
+  temp : 25.638
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 66.4119
+  food : 84.8499
+  water : 91.192
+  temp : 24.9302
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 58.4001
+  food : -2.90002
+  water : -0.100007
+  temp : 29.4
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 114.719
+  food : 26.657
+  water : 63.7901
+  temp : 27.414
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 68.842
+  food : 33.736
+  water : 61.3901
+  temp : 23.812
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 87.4494
+  food : 83.0512
+  water : 91.2297
+  temp : 25.7291
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 67.6943
+  food : 81.8198
+  water : 89.4304
+  temp : 24.9163
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 56.2001
+  food : -2.90002
+  water : -0.100007
+  temp : 31.6
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 115.697
+  food : 24.591
+  water : 62.7701
+  temp : 27.482
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 70.59
+  food : 29.72
+  water : 59.0501
+  temp : 23.74
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 88.3806
+  food : 80.9326
+  water : 90.1335
+  temp : 25.8203
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 68.9767
+  food : 78.7898
+  water : 87.6688
+  temp : 24.9023
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 54.0001
+  food : -2.90002
+  water : -0.100007
+  temp : 33.8
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 116.675
+  food : 22.525
+  water : 61.7501
+  temp : 27.55
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 72.338
+  food : 25.704
+  water : 56.7101
+  temp : 23.668
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 89.3118
+  food : 78.814
+  water : 89.0372
+  temp : 25.9114
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 70.259
+  food : 75.7598
+  water : 85.9072
+  temp : 24.8884
+ nodes : 3
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 51.8001
+  food : -2.90002
+  water : -0.100007
+  temp : 36
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 117.653
+  food : 20.459
+  water : 60.7301
+  temp : 27.618
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 74.086
+  food : 21.688
+  water : 54.3701
+  temp : 23.596
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 90.2429
+  food : 76.6954
+  water : 87.9409
+  temp : 26.0025
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 71.5414
+  food : 72.7297
+  water : 84.1456
+  temp : 24.8744
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 100.548
+  food : 98.918
+  water : 99.416
+  temp : 24.95
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 49.6001
+  food : -2.90002
+  water : -0.100007
+  temp : 38.2
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 118.631
+  food : 18.393
+  water : 59.7101
+  temp : 27.686
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 75.834
+  food : 17.672
+  water : 52.0301
+  temp : 23.524
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 91.1741
+  food : 74.5768
+  water : 86.8446
+  temp : 26.0937
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 72.8238
+  food : 69.6997
+  water : 82.384
+  temp : 24.8605
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 101.096
+  food : 97.836
+  water : 98.832
+  temp : 24.9
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 47.4001
+  food : -2.90002
+  water : -0.100007
+  temp : 40.4
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 119.609
+  food : 16.327
+  water : 58.6901
+  temp : 27.754
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 77.582
+  food : 13.656
+  water : 49.6901
+  temp : 23.452
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 92.1053
+  food : 72.4582
+  water : 85.7483
+  temp : 26.1848
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 74.1062
+  food : 66.6697
+  water : 80.6224
+  temp : 24.8465
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 101.644
+  food : 96.754
+  water : 98.248
+  temp : 24.85
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 45.2001
+  food : -2.90002
+  water : -0.100007
+  temp : 42.6
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 120.587
+  food : 14.261
+  water : 57.6701
+  temp : 27.822
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 79.33
+  food : 9.64002
+  water : 47.3501
+  temp : 23.38
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 93.0365
+  food : 70.3396
+  water : 84.652
+  temp : 26.276
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 75.3885
+  food : 63.6396
+  water : 78.8608
+  temp : 24.8326
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 102.192
+  food : 95.672
+  water : 97.664
+  temp : 24.8
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 100.566
+  food : 98.929
+  water : 99.449
+  temp : 24.954
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 43.0001
+  food : -2.90002
+  water : -0.100007
+  temp : 44.8
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 121.565
+  food : 12.195
+  water : 56.6501
+  temp : 27.89
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 81.078
+  food : 5.62402
+  water : 45.0101
+  temp : 23.308
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 93.9676
+  food : 68.221
+  water : 83.5558
+  temp : 26.3671
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 76.6709
+  food : 60.6096
+  water : 77.0992
+  temp : 24.8186
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 102.74
+  food : 94.59
+  water : 97.08
+  temp : 24.75
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 101.132
+  food : 97.858
+  water : 98.898
+  temp : 24.908
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 40.8001
+  food : -2.90002
+  water : -0.100007
+  temp : 47
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 122.543
+  food : 10.129
+  water : 55.6301
+  temp : 27.958
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 82.826
+  food : 1.60802
+  water : 42.6701
+  temp : 23.236
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 94.8988
+  food : 66.1024
+  water : 82.4595
+  temp : 26.4583
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 77.9533
+  food : 57.5796
+  water : 75.3376
+  temp : 24.8047
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 103.288
+  food : 93.508
+  water : 96.496
+  temp : 24.7
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 101.698
+  food : 96.787
+  water : 98.347
+  temp : 24.862
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 38.6001
+  food : -2.90002
+  water : -0.100007
+  temp : 49.2
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 123.521
+  food : 8.06297
+  water : 54.6101
+  temp : 28.026
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 84.574
+  food : -2.40798
+  water : 40.3301
+  temp : 23.164
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 95.83
+  food : 63.9838
+  water : 81.3632
+  temp : 26.5494
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 79.2357
+  food : 54.5496
+  water : 73.576
+  temp : 24.7907
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 103.836
+  food : 92.426
+  water : 95.912
+  temp : 24.65
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 102.264
+  food : 95.716
+  water : 97.796
+  temp : 24.816
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 100.494
+  food : 98.971
+  water : 99.436
+  temp : 24.971
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 36.4001
+  food : -2.90002
+  water : -0.100007
+  temp : 51.4
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 124.499
+  food : 5.99697
+  water : 53.5901
+  temp : 28.094
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 82.306
+  food : -2.40798
+  water : 37.9901
+  temp : 23.092
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 96.7612
+  food : 61.8652
+  water : 80.2669
+  temp : 26.6405
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 80.5181
+  food : 51.5195
+  water : 71.8144
+  temp : 24.7768
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 104.384
+  food : 91.344
+  water : 95.328
+  temp : 24.6
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 102.83
+  food : 94.645
+  water : 97.245
+  temp : 24.77
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 100.988
+  food : 97.942
+  water : 98.872
+  temp : 24.942
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 34.2001
+  food : -2.90002
+  water : -0.100007
+  temp : 53.6
+ nodes : 4
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 125.477
+  food : 3.93097
+  water : 52.5701
+  temp : 28.162
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 80.038
+  food : -2.40798
+  water : 35.6501
+  temp : 23.02
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 97.6923
+  food : 59.7466
+  water : 79.1706
+  temp : 26.7317
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 81.8004
+  food : 48.4895
+  water : 70.0528
+  temp : 24.7628
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 104.932
+  food : 90.262
+  water : 94.744
+  temp : 24.55
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 103.396
+  food : 93.574
+  water : 96.694
+  temp : 24.724
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 101.482
+  food : 96.913
+  water : 98.308
+  temp : 24.913
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 100.457
+  food : 98.996
+  water : 99.427
+  temp : 24.974
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 100.541
+  food : 98.9634
+  water : 99.4242
+  temp : 24.9193
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 12
+  food : -2.90002
+  water : -0.100007
+  temp : 55.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 126.455
+  food : 1.86497
+  water : 51.5501
+  temp : 28.23
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 77.77
+  food : -2.40798
+  water : 33.3101
+  temp : 22.948
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 98.6235
+  food : 57.628
+  water : 78.0743
+  temp : 26.8228
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 83.0828
+  food : 45.4595
+  water : 68.2913
+  temp : 24.7489
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 105.48
+  food : 89.18
+  water : 94.16
+  temp : 24.5
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 103.962
+  food : 92.503
+  water : 96.143
+  temp : 24.678
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 101.976
+  food : 95.884
+  water : 97.744
+  temp : 24.884
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 100.914
+  food : 97.992
+  water : 98.854
+  temp : 24.948
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 101.083
+  food : 97.9269
+  water : 98.8484
+  temp : 24.8386
+ nodes : 1
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 100.527
+  food : 98.9686
+  water : 99.4621
+  temp : 24.9665
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 9.25005
+  food : -2.90002
+  water : -0.100007
+  temp : 58.55
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 127.433
+  food : -0.201035
+  water : 50.5301
+  temp : 28.298
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 75.502
+  food : -2.40798
+  water : 30.9701
+  temp : 22.876
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 99.5547
+  food : 55.5094
+  water : 76.9781
+  temp : 26.914
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 84.3652
+  food : 42.4294
+  water : 66.5297
+  temp : 24.7349
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 106.028
+  food : 88.098
+  water : 93.576
+  temp : 24.45
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 104.528
+  food : 91.432
+  water : 95.592
+  temp : 24.632
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 102.47
+  food : 94.855
+  water : 97.18
+  temp : 24.855
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 101.371
+  food : 96.988
+  water : 98.281
+  temp : 24.922
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 101.624
+  food : 96.8903
+  water : 98.2727
+  temp : 24.7579
+ nodes : 1
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 101.054
+  food : 97.9372
+  water : 98.9242
+  temp : 24.933
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 6.50005
+  food : -2.90002
+  water : -0.100007
+  temp : 61.3
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 126.345
+  food : -0.201035
+  water : 49.5101
+  temp : 28.366
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 73.234
+  food : -2.40798
+  water : 28.6301
+  temp : 22.804
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 100.486
+  food : 53.3908
+  water : 75.8818
+  temp : 27.0051
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 85.6476
+  food : 39.3994
+  water : 64.7681
+  temp : 24.721
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 106.576
+  food : 87.016
+  water : 92.992
+  temp : 24.4
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 105.094
+  food : 90.361
+  water : 95.041
+  temp : 24.586
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 102.964
+  food : 93.826
+  water : 96.616
+  temp : 24.826
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 101.828
+  food : 95.984
+  water : 97.708
+  temp : 24.896
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 82.1659
+  food : 95.8538
+  water : 97.6969
+  temp : 24.6772
+ nodes : 2
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 101.581
+  food : 96.9058
+  water : 98.3863
+  temp : 24.8996
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 100.475
+  food : 98.957
+  water : 99.4575
+  temp : 25.0251
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 3.75005
+  food : -2.90002
+  water : -0.100007
+  temp : 64.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 125.257
+  food : -0.201035
+  water : 48.4901
+  temp : 28.434
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 70.966
+  food : -2.40798
+  water : 26.2901
+  temp : 22.732
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 101.417
+  food : 51.2722
+  water : 74.7855
+  temp : 27.0962
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 86.93
+  food : 36.3694
+  water : 63.0065
+  temp : 24.707
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 107.124
+  food : 85.934
+  water : 92.408
+  temp : 24.35
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 105.66
+  food : 89.29
+  water : 94.49
+  temp : 24.54
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 103.458
+  food : 92.797
+  water : 96.052
+  temp : 24.797
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 102.285
+  food : 94.98
+  water : 97.135
+  temp : 24.87
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 83.2488
+  food : 93.7807
+  water : 96.5453
+  temp : 24.5158
+ nodes : 2
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 102.108
+  food : 95.8744
+  water : 97.8484
+  temp : 24.8661
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 100.951
+  food : 97.9141
+  water : 98.9149
+  temp : 25.0501
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 1.00005
+  food : -2.90002
+  water : -0.100007
+  temp : 66.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 124.169
+  food : -0.201035
+  water : 47.4701
+  temp : 28.5019
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 68.698
+  food : -2.40798
+  water : 23.9501
+  temp : 22.66
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 102.348
+  food : 49.1536
+  water : 73.6892
+  temp : 27.1874
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 88.2123
+  food : 33.3394
+  water : 61.2449
+  temp : 24.6931
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 107.672
+  food : 84.852
+  water : 91.824
+  temp : 24.3
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 106.226
+  food : 88.219
+  water : 93.939
+  temp : 24.494
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 103.952
+  food : 91.768
+  water : 95.488
+  temp : 24.768
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 102.742
+  food : 93.976
+  water : 96.562
+  temp : 24.844
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 84.3318
+  food : 91.7076
+  water : 95.3938
+  temp : 24.3544
+ nodes : 2
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 102.635
+  food : 94.843
+  water : 97.3104
+  temp : 24.8326
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 101.426
+  food : 96.8711
+  water : 98.3724
+  temp : 25.0752
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : -1.74995
+  food : -2.90002
+  water : -0.100007
+  temp : 69.55
+ nodes : 5
+eating branch : 0x7ffd54cd3df0
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 123.081
+  food : -0.201035
+  water : 46.4501
+  temp : 28.5699
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 66.43
+  food : -2.40798
+  water : 21.6101
+  temp : 22.588
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 103.279
+  food : 47.035
+  water : 72.5929
+  temp : 27.2785
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 89.4947
+  food : 30.3093
+  water : 59.4833
+  temp : 24.6791
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 108.22
+  food : 83.77
+  water : 91.24
+  temp : 24.25
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 106.792
+  food : 87.148
+  water : 93.388
+  temp : 24.448
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 104.446
+  food : 90.739
+  water : 94.924
+  temp : 24.739
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 103.199
+  food : 92.972
+  water : 95.989
+  temp : 24.818
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 85.4147
+  food : 89.6345
+  water : 94.2422
+  temp : 24.1929
+ nodes : 2
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 103.162
+  food : 93.8116
+  water : 96.7725
+  temp : 24.7991
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 101.902
+  food : 95.8281
+  water : 97.8299
+  temp : 25.1002
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 10.5
+  food : -2.90002
+  water : -0.100007
+  temp : 72.3
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 121.993
+  food : -0.201035
+  water : 45.4301
+  temp : 28.6379
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 64.162
+  food : -2.40798
+  water : 19.2701
+  temp : 22.516
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 104.211
+  food : 44.9164
+  water : 71.4966
+  temp : 27.3697
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 90.7771
+  food : 27.2793
+  water : 57.7217
+  temp : 24.6652
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 108.768
+  food : 82.688
+  water : 90.656
+  temp : 24.2
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 107.358
+  food : 86.077
+  water : 92.837
+  temp : 24.402
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 104.94
+  food : 89.71
+  water : 94.36
+  temp : 24.71
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 103.656
+  food : 91.968
+  water : 95.416
+  temp : 24.792
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 66.4977
+  food : 87.5614
+  water : 93.0906
+  temp : 24.0315
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 103.689
+  food : 92.7802
+  water : 96.2346
+  temp : 24.7656
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 102.377
+  food : 94.7852
+  water : 97.2874
+  temp : 25.1253
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 7.75005
+  food : -2.90002
+  water : -0.100007
+  temp : 75.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 120.905
+  food : -0.201035
+  water : 44.4101
+  temp : 28.7059
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 61.894
+  food : -2.40798
+  water : 16.93
+  temp : 22.444
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 105.142
+  food : 42.7978
+  water : 70.4004
+  temp : 27.4608
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 92.0595
+  food : 24.2493
+  water : 55.9601
+  temp : 24.6512
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 109.316
+  food : 81.606
+  water : 90.072
+  temp : 24.15
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 107.924
+  food : 85.006
+  water : 92.286
+  temp : 24.356
+ nodes : 1
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 105.434
+  food : 88.681
+  water : 93.796
+  temp : 24.681
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 104.113
+  food : 90.964
+  water : 94.843
+  temp : 24.766
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 68.1221
+  food : 84.4518
+  water : 91.3633
+  temp : 23.7894
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 104.216
+  food : 91.7488
+  water : 95.6967
+  temp : 24.7322
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 102.852
+  food : 93.7422
+  water : 96.7448
+  temp : 25.1503
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 100.482
+  food : 98.9621
+  water : 99.4491
+  temp : 25.0047
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 5.00005
+  food : -2.90002
+  water : -0.100007
+  temp : 77.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 119.817
+  food : -0.201035
+  water : 43.3901
+  temp : 28.7739
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 59.626
+  food : -2.40798
+  water : 14.59
+  temp : 22.372
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 106.073
+  food : 40.6792
+  water : 69.3041
+  temp : 27.5519
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 93.3419
+  food : 21.2192
+  water : 54.1985
+  temp : 24.6373
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 109.864
+  food : 80.524
+  water : 89.488
+  temp : 24.1
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 88.49
+  food : 83.935
+  water : 91.735
+  temp : 24.31
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 105.928
+  food : 87.652
+  water : 93.232
+  temp : 24.652
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 104.57
+  food : 89.96
+  water : 94.27
+  temp : 24.74
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 69.7465
+  food : 81.3421
+  water : 89.636
+  temp : 23.5473
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 104.743
+  food : 90.7174
+  water : 95.1588
+  temp : 24.6987
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 103.328
+  food : 92.6992
+  water : 96.2023
+  temp : 25.1754
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 100.965
+  food : 97.9242
+  water : 98.8981
+  temp : 25.0093
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 100.49
+  food : 98.9063
+  water : 99.4489
+  temp : 25.0527
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 2.25005
+  food : -2.90002
+  water : -0.100007
+  temp : 80.55
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 118.729
+  food : -0.201035
+  water : 42.3701
+  temp : 28.8419
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 57.358
+  food : -2.40798
+  water : 12.25
+  temp : 22.3
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 107.004
+  food : 38.5606
+  water : 68.2078
+  temp : 27.6431
+ nodes : 2
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 94.6242
+  food : 18.1892
+  water : 52.4369
+  temp : 24.6233
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 110.412
+  food : 79.442
+  water : 88.904
+  temp : 24.05
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 89.622
+  food : 81.793
+  water : 90.633
+  temp : 24.218
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 106.422
+  food : 86.623
+  water : 92.668
+  temp : 24.623
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 105.027
+  food : 88.956
+  water : 93.697
+  temp : 24.714
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 71.3709
+  food : 78.2325
+  water : 87.9086
+  temp : 23.3052
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 105.27
+  food : 89.686
+  water : 94.6209
+  temp : 24.6652
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 103.803
+  food : 91.6562
+  water : 95.6598
+  temp : 25.2004
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 101.447
+  food : 96.8863
+  water : 98.3472
+  temp : 25.014
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 100.98
+  food : 97.8126
+  water : 98.8978
+  temp : 25.1054
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : -0.49995
+  food : -2.90002
+  water : -0.100007
+  temp : 83.3
+ nodes : 5
+eating branch : 0x7ffd54cd3df0
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 117.641
+  food : -0.201035
+  water : 41.3501
+  temp : 28.9099
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 55.09
+  food : -2.40798
+  water : 9.91005
+  temp : 22.228
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 87.9353
+  food : 36.442
+  water : 67.1115
+  temp : 27.7342
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 95.9066
+  food : 15.1592
+  water : 50.6753
+  temp : 24.6094
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 110.96
+  food : 78.36
+  water : 88.32
+  temp : 24
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 90.754
+  food : 79.651
+  water : 89.531
+  temp : 24.126
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 106.916
+  food : 85.594
+  water : 92.104
+  temp : 24.594
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 105.484
+  food : 87.952
+  water : 93.124
+  temp : 24.688
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 72.9954
+  food : 75.1228
+  water : 86.1813
+  temp : 23.0631
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 105.797
+  food : 88.6546
+  water : 94.083
+  temp : 24.6317
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 104.278
+  food : 90.6133
+  water : 95.1173
+  temp : 25.2255
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 101.929
+  food : 95.8484
+  water : 97.7963
+  temp : 25.0186
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 101.47
+  food : 96.7189
+  water : 98.3466
+  temp : 25.158
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 11.75
+  food : -2.90002
+  water : -0.100007
+  temp : 86.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 116.553
+  food : -0.201035
+  water : 40.3301
+  temp : 28.9779
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 52.822
+  food : -2.40798
+  water : 7.57005
+  temp : 22.156
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 89.332
+  food : 33.2641
+  water : 65.4671
+  temp : 27.8709
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 97.189
+  food : 12.1291
+  water : 48.9137
+  temp : 24.5954
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 111.508
+  food : 77.278
+  water : 87.736
+  temp : 23.95
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 91.886
+  food : 77.509
+  water : 88.429
+  temp : 24.034
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 107.41
+  food : 84.565
+  water : 91.54
+  temp : 24.565
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 105.941
+  food : 86.948
+  water : 92.551
+  temp : 24.662
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 74.6198
+  food : 72.0132
+  water : 84.4539
+  temp : 22.821
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 106.324
+  food : 87.6232
+  water : 93.5451
+  temp : 24.5982
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 104.754
+  food : 89.5703
+  water : 94.5747
+  temp : 25.2505
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 102.412
+  food : 94.8104
+  water : 97.2454
+  temp : 25.0233
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 101.96
+  food : 95.6252
+  water : 97.7955
+  temp : 25.2107
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 100.478
+  food : 98.9448
+  water : 99.4207
+  temp : 24.9983
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 9.00005
+  food : -2.90002
+  water : -0.100007
+  temp : 88.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 115.465
+  food : -0.201035
+  water : 39.3101
+  temp : 29.0459
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 50.554
+  food : -2.40798
+  water : 5.23005
+  temp : 22.084
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 90.7288
+  food : 30.0862
+  water : 63.8227
+  temp : 28.0076
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 98.4714
+  food : 9.09912
+  water : 47.1521
+  temp : 24.5815
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 112.056
+  food : 76.196
+  water : 87.152
+  temp : 23.9
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 93.018
+  food : 75.367
+  water : 87.327
+  temp : 23.942
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 107.904
+  food : 83.536
+  water : 90.976
+  temp : 24.536
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 106.398
+  food : 85.944
+  water : 91.978
+  temp : 24.636
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 76.2442
+  food : 68.9035
+  water : 82.7266
+  temp : 22.5788
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 106.851
+  food : 86.5918
+  water : 93.0072
+  temp : 24.5648
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 105.229
+  food : 88.5273
+  water : 94.0322
+  temp : 25.2756
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 102.894
+  food : 93.7725
+  water : 96.6944
+  temp : 25.0279
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 102.45
+  food : 94.5314
+  water : 97.2444
+  temp : 25.2634
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 100.955
+  food : 97.8897
+  water : 98.8415
+  temp : 24.9966
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 100.542
+  food : 98.9141
+  water : 99.4132
+  temp : 24.9566
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 6.25005
+  food : -2.90002
+  water : -0.100007
+  temp : 91.55
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 114.377
+  food : -0.201035
+  water : 38.2901
+  temp : 29.1139
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 48.286
+  food : -2.40798
+  water : 2.89005
+  temp : 22.012
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 92.1256
+  food : 26.9083
+  water : 62.1783
+  temp : 28.1444
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 99.7538
+  food : 6.06909
+  water : 45.3905
+  temp : 24.5675
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 112.604
+  food : 75.114
+  water : 86.568
+  temp : 23.85
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 94.15
+  food : 73.225
+  water : 86.225
+  temp : 23.85
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 108.398
+  food : 82.507
+  water : 90.4119
+  temp : 24.507
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 106.855
+  food : 84.94
+  water : 91.405
+  temp : 24.61
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 77.8686
+  food : 65.7939
+  water : 80.9993
+  temp : 22.3367
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 107.378
+  food : 85.5604
+  water : 92.4693
+  temp : 24.5313
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 105.705
+  food : 87.4844
+  water : 93.4897
+  temp : 25.3006
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 103.376
+  food : 92.7346
+  water : 96.1435
+  temp : 25.0326
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 102.939
+  food : 93.4377
+  water : 96.6933
+  temp : 25.3161
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 101.433
+  food : 96.8345
+  water : 98.2622
+  temp : 24.9948
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 101.085
+  food : 97.8282
+  water : 98.8264
+  temp : 24.9131
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 3.50005
+  food : -2.90002
+  water : -0.100007
+  temp : 94.3
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 113.289
+  food : -0.201035
+  water : 37.2701
+  temp : 29.1819
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 46.018
+  food : -2.40798
+  water : 0.550049
+  temp : 21.94
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 93.5224
+  food : 23.7304
+  water : 60.5338
+  temp : 28.2811
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 101.036
+  food : 3.03906
+  water : 43.6289
+  temp : 24.5536
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 113.152
+  food : 74.032
+  water : 85.984
+  temp : 23.8
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 95.282
+  food : 71.083
+  water : 85.123
+  temp : 23.758
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 108.892
+  food : 81.478
+  water : 89.8479
+  temp : 24.478
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 107.312
+  food : 83.936
+  water : 90.832
+  temp : 24.584
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 79.493
+  food : 62.6842
+  water : 79.2719
+  temp : 22.0946
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 107.905
+  food : 84.529
+  water : 91.9313
+  temp : 24.4978
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 106.18
+  food : 86.4414
+  water : 92.9472
+  temp : 25.3257
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 103.859
+  food : 91.6967
+  water : 95.5926
+  temp : 25.0372
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 103.429
+  food : 92.344
+  water : 96.1421
+  temp : 25.3688
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 101.91
+  food : 95.7794
+  water : 97.683
+  temp : 24.9931
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 101.627
+  food : 96.7424
+  water : 98.2395
+  temp : 24.8697
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 0.75005
+  food : -2.90002
+  water : -0.100007
+  temp : 97.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 112.201
+  food : -0.201035
+  water : 36.2501
+  temp : 29.2499
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 43.75
+  food : -2.40798
+  water : -1.78995
+  temp : 21.868
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 94.9191
+  food : 20.5525
+  water : 58.8894
+  temp : 28.4178
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 102.319
+  food : 0.00902796
+  water : 41.8673
+  temp : 24.5396
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 113.7
+  food : 72.95
+  water : 85.4
+  temp : 23.75
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 96.414
+  food : 68.941
+  water : 84.021
+  temp : 23.666
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 109.386
+  food : 80.449
+  water : 89.2839
+  temp : 24.449
+ nodes : 1
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 107.769
+  food : 82.932
+  water : 90.259
+  temp : 24.558
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 81.1175
+  food : 59.5746
+  water : 77.5446
+  temp : 21.8525
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 108.432
+  food : 83.4976
+  water : 91.3934
+  temp : 24.4643
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 106.655
+  food : 85.3984
+  water : 92.4046
+  temp : 25.3507
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 104.341
+  food : 90.6588
+  water : 95.0417
+  temp : 25.0419
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 103.919
+  food : 91.2503
+  water : 95.591
+  temp : 25.4215
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 102.388
+  food : 94.7242
+  water : 97.1037
+  temp : 24.9914
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 102.17
+  food : 95.6565
+  water : 97.6527
+  temp : 24.8263
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 100.574
+  food : 98.9141
+  water : 99.5038
+  temp : 25.0157
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : -1.99995
+  food : -2.90002
+  water : -0.100007
+  temp : 99.8
+ nodes : 5
+eating branch : 0x7ffd54cd3df0
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 111.113
+  food : -0.201035
+  water : 35.2301
+  temp : 29.3179
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 41.482
+  food : -2.40798
+  water : -1.78995
+  temp : 24.136
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 96.3159
+  food : 17.3746
+  water : 57.245
+  temp : 28.5545
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 103.601
+  food : -3.021
+  water : 40.1057
+  temp : 24.5257
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 114.248
+  food : 71.868
+  water : 84.816
+  temp : 23.7
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 97.546
+  food : 66.799
+  water : 82.919
+  temp : 23.574
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 89.8799
+  food : 79.42
+  water : 88.7199
+  temp : 24.42
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 108.226
+  food : 81.928
+  water : 89.686
+  temp : 24.532
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 82.7419
+  food : 56.4649
+  water : 75.8172
+  temp : 21.6104
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 108.958
+  food : 82.4662
+  water : 90.8555
+  temp : 24.4308
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 107.131
+  food : 84.3555
+  water : 91.8621
+  temp : 25.3758
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 104.823
+  food : 89.6209
+  water : 94.4907
+  temp : 25.0465
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 104.409
+  food : 90.1566
+  water : 95.0399
+  temp : 25.4741
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 102.866
+  food : 93.669
+  water : 96.5245
+  temp : 24.9897
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 102.712
+  food : 94.5706
+  water : 97.0659
+  temp : 24.7828
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 101.148
+  food : 97.8283
+  water : 99.0076
+  temp : 25.0314
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 10.25
+  food : -2.90002
+  water : -0.100007
+  temp : 102.55
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 110.025
+  food : -0.201035
+  water : 34.2101
+  temp : 29.3859
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 39.214
+  food : -2.40798
+  water : -1.78995
+  temp : 26.404
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 97.7127
+  food : 14.1967
+  water : 55.6006
+  temp : 28.6912
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 101.853
+  food : -3.021
+  water : 38.3441
+  temp : 24.5117
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 114.796
+  food : 70.786
+  water : 84.232
+  temp : 23.65
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 98.678
+  food : 64.657
+  water : 81.817
+  temp : 23.482
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 90.8679
+  food : 77.362
+  water : 87.5919
+  temp : 24.362
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 108.683
+  food : 80.924
+  water : 89.113
+  temp : 24.506
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 84.3663
+  food : 53.3553
+  water : 74.0899
+  temp : 21.3683
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 109.485
+  food : 81.4348
+  water : 90.3176
+  temp : 24.3974
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 107.606
+  food : 83.3125
+  water : 91.3196
+  temp : 25.4008
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 105.306
+  food : 88.583
+  water : 93.9398
+  temp : 25.0512
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 104.899
+  food : 89.0629
+  water : 94.4888
+  temp : 25.5268
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 103.343
+  food : 92.6139
+  water : 95.9452
+  temp : 24.988
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 103.255
+  food : 93.4847
+  water : 96.4791
+  temp : 24.7394
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 101.722
+  food : 96.7424
+  water : 98.5114
+  temp : 25.0471
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 7.50005
+  food : -2.90002
+  water : -0.100007
+  temp : 105.3
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 108.937
+  food : -0.201035
+  water : 33.1901
+  temp : 29.4539
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 36.946
+  food : -2.40798
+  water : -1.78995
+  temp : 28.672
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 99.1095
+  food : 11.0188
+  water : 53.9562
+  temp : 28.8279
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 100.106
+  food : -3.021
+  water : 36.5825
+  temp : 24.4978
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 115.344
+  food : 69.704
+  water : 83.648
+  temp : 23.6
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 99.81
+  food : 62.515
+  water : 80.715
+  temp : 23.39
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 91.8559
+  food : 75.304
+  water : 86.4639
+  temp : 24.304
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 109.14
+  food : 79.92
+  water : 88.54
+  temp : 24.48
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 85.9907
+  food : 50.2456
+  water : 72.3625
+  temp : 21.1262
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 110.012
+  food : 80.4034
+  water : 89.7797
+  temp : 24.3639
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 108.082
+  food : 82.2695
+  water : 90.7771
+  temp : 25.4259
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 105.788
+  food : 87.5451
+  water : 93.3889
+  temp : 25.0558
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 105.389
+  food : 87.9692
+  water : 93.9376
+  temp : 25.5795
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 103.821
+  food : 91.5587
+  water : 95.366
+  temp : 24.9862
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 103.797
+  food : 92.3989
+  water : 95.8922
+  temp : 24.696
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 102.296
+  food : 95.6565
+  water : 98.0152
+  temp : 25.0628
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 4.75005
+  food : -2.90002
+  water : -0.100007
+  temp : 108.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 107.849
+  food : -0.201035
+  water : 32.1701
+  temp : 29.5219
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 34.678
+  food : -2.40798
+  water : -1.78995
+  temp : 30.94
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 100.506
+  food : 7.84091
+  water : 52.3117
+  temp : 28.9646
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 98.3579
+  food : -3.021
+  water : 34.8209
+  temp : 24.4838
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 115.892
+  food : 68.622
+  water : 83.064
+  temp : 23.55
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 100.942
+  food : 60.373
+  water : 79.613
+  temp : 23.298
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 92.8439
+  food : 73.246
+  water : 85.3359
+  temp : 24.246
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 109.597
+  food : 78.916
+  water : 87.967
+  temp : 24.454
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 87.6151
+  food : 47.136
+  water : 70.6352
+  temp : 20.884
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 110.539
+  food : 79.3719
+  water : 89.2418
+  temp : 24.3304
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 108.557
+  food : 81.2266
+  water : 90.2345
+  temp : 25.451
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 106.27
+  food : 86.5072
+  water : 92.838
+  temp : 25.0605
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 105.879
+  food : 86.8755
+  water : 93.3865
+  temp : 25.6322
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 104.299
+  food : 90.5036
+  water : 94.7867
+  temp : 24.9845
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 104.34
+  food : 91.313
+  water : 95.3054
+  temp : 24.6525
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 102.87
+  food : 94.5707
+  water : 97.519
+  temp : 25.0785
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 2.00005
+  food : -2.90002
+  water : -0.100007
+  temp : 110.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 106.761
+  food : -0.201035
+  water : 31.1501
+  temp : 29.5899
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 32.41
+  food : -2.40798
+  water : -1.78995
+  temp : 33.208
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 101.903
+  food : 4.66301
+  water : 50.6673
+  temp : 29.1013
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 96.6103
+  food : -3.021
+  water : 33.0592
+  temp : 24.4699
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 116.44
+  food : 67.54
+  water : 82.48
+  temp : 23.5
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 102.074
+  food : 58.231
+  water : 78.511
+  temp : 23.206
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 93.8319
+  food : 71.188
+  water : 84.2079
+  temp : 24.188
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 110.054
+  food : 77.912
+  water : 87.394
+  temp : 24.428
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 89.2396
+  food : 44.0263
+  water : 68.9079
+  temp : 20.6419
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 111.066
+  food : 78.3405
+  water : 88.7039
+  temp : 24.2969
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 109.032
+  food : 80.1836
+  water : 89.692
+  temp : 25.476
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 106.753
+  food : 85.4693
+  water : 92.287
+  temp : 25.0651
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 106.369
+  food : 85.7817
+  water : 92.8354
+  temp : 25.6849
+ nodes : 1
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 104.776
+  food : 89.4484
+  water : 94.2075
+  temp : 24.9828
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 104.882
+  food : 90.2271
+  water : 94.7186
+  temp : 24.6091
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 83.4439
+  food : 93.4848
+  water : 97.0228
+  temp : 25.0942
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : -0.74995
+  food : -2.90002
+  water : -0.100007
+  temp : 113.55
+ nodes : 5
+eating branch : 0x7ffd54cd3df0
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 105.673
+  food : -0.201035
+  water : 30.1301
+  temp : 29.6579
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 30.142
+  food : -2.40798
+  water : -1.78995
+  temp : 35.476
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 103.3
+  food : 1.48511
+  water : 49.0229
+  temp : 29.238
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 94.8626
+  food : -3.021
+  water : 31.2976
+  temp : 24.4559
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 116.988
+  food : 66.458
+  water : 81.896
+  temp : 23.45
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 103.206
+  food : 56.089
+  water : 77.409
+  temp : 23.114
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 94.8199
+  food : 69.13
+  water : 83.0799
+  temp : 24.13
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 110.511
+  food : 76.9081
+  water : 86.821
+  temp : 24.402
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 90.864
+  food : 40.9167
+  water : 67.1805
+  temp : 20.3998
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 111.593
+  food : 77.3091
+  water : 88.166
+  temp : 24.2634
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 109.508
+  food : 79.1406
+  water : 89.1495
+  temp : 25.5011
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 107.235
+  food : 84.4313
+  water : 91.7361
+  temp : 25.0698
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 86.8587
+  food : 84.688
+  water : 92.2843
+  temp : 25.7376
+ nodes : 2
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 105.254
+  food : 88.3932
+  water : 93.6282
+  temp : 24.9811
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 105.425
+  food : 89.1412
+  water : 94.1318
+  temp : 24.5657
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 84.5919
+  food : 91.313
+  water : 96.0304
+  temp : 25.1255
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 11.5
+  food : -2.90002
+  water : -0.100007
+  temp : 116.3
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 104.585
+  food : -0.201035
+  water : 29.1101
+  temp : 29.7259
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 27.874
+  food : -2.40798
+  water : -1.78995
+  temp : 37.744
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 104.697
+  food : -1.69279
+  water : 47.3785
+  temp : 29.3747
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 93.115
+  food : -3.021
+  water : 29.536
+  temp : 24.442
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 117.536
+  food : 65.376
+  water : 81.312
+  temp : 23.4
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 104.338
+  food : 53.947
+  water : 76.307
+  temp : 23.022
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 95.8079
+  food : 67.072
+  water : 81.952
+  temp : 24.072
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 110.968
+  food : 75.9041
+  water : 86.248
+  temp : 24.376
+ nodes : 1
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 92.4884
+  food : 37.807
+  water : 65.4532
+  temp : 20.1577
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 112.12
+  food : 76.2777
+  water : 87.6281
+  temp : 24.23
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 109.983
+  food : 78.0977
+  water : 88.6069
+  temp : 25.5261
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 107.717
+  food : 83.3934
+  water : 91.1852
+  temp : 25.0744
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 87.8385
+  food : 82.5006
+  water : 91.182
+  temp : 25.8429
+ nodes : 2
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 105.731
+  food : 87.3381
+  water : 93.049
+  temp : 24.9794
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 105.967
+  food : 88.0554
+  water : 93.545
+  temp : 24.5222
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 85.7398
+  food : 89.1413
+  water : 95.038
+  temp : 25.1569
+ nodes : 2
+status update on : 0x55b92dae2ef0  -- dt : 0.1
+  energy : 100.47
+  food : 98.934
+  water : 99.4576
+  temp : 25.0538
+ nodes : 1
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 8.75005
+  food : -2.90002
+  water : -0.100007
+  temp : 119.05
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 103.497
+  food : -0.201035
+  water : 28.0901
+  temp : 29.7939
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 25.606
+  food : -2.40798
+  water : -1.78995
+  temp : 40.012
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 102.915
+  food : -1.69279
+  water : 45.734
+  temp : 29.5114
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 91.3673
+  food : -3.021
+  water : 27.7744
+  temp : 24.428
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 118.084
+  food : 64.294
+  water : 80.728
+  temp : 23.35
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 105.47
+  food : 51.805
+  water : 75.205
+  temp : 22.93
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 96.7959
+  food : 65.014
+  water : 80.824
+  temp : 24.014
+ nodes : 2
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 91.425
+  food : 74.9001
+  water : 85.675
+  temp : 24.35
+ nodes : 2
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 94.1128
+  food : 34.6974
+  water : 63.7258
+  temp : 19.9156
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 112.647
+  food : 75.2463
+  water : 87.0901
+  temp : 24.1965
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 110.459
+  food : 77.0547
+  water : 88.0644
+  temp : 25.5512
+ nodes : 1
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 108.2
+  food : 82.3555
+  water : 90.6343
+  temp : 25.0791
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 88.8183
+  food : 80.3132
+  water : 90.0798
+  temp : 25.9483
+ nodes : 2
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 106.209
+  food : 86.2829
+  water : 92.4697
+  temp : 24.9776
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 106.51
+  food : 86.9695
+  water : 92.9581
+  temp : 24.4788
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 86.8878
+  food : 86.9696
+  water : 94.0456
+  temp : 25.1883
+ nodes : 2
+status update on : 0x55b92dae2ef0  -- dt : 0.1
+  energy : 100.94
+  food : 97.8679
+  water : 98.9151
+  temp : 25.1076
+ nodes : 1
+status update on : 0x55b92dcfe2f0  -- dt : 0.1
+  energy : 80.5025
+  food : 98.961
+  water : 99.4822
+  temp : 25.0186
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 6.00005
+  food : -2.90002
+  water : -0.100007
+  temp : 121.8
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 102.409
+  food : -0.201035
+  water : 27.0701
+  temp : 29.8619
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 23.338
+  food : -2.40798
+  water : -1.78995
+  temp : 42.28
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 101.134
+  food : -1.69279
+  water : 44.0896
+  temp : 29.6482
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 89.6197
+  food : -3.021
+  water : 26.0128
+  temp : 24.4141
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 118.632
+  food : 63.212
+  water : 80.144
+  temp : 23.3
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 106.602
+  food : 49.663
+  water : 74.103
+  temp : 22.838
+ nodes : 2
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 77.7839
+  food : 62.956
+  water : 79.696
+  temp : 23.956
+ nodes : 3
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 92.339
+  food : 72.8921
+  water : 84.529
+  temp : 24.298
+ nodes : 2
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 95.7372
+  food : 31.5877
+  water : 61.9985
+  temp : 19.6735
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 113.174
+  food : 74.2149
+  water : 86.5522
+  temp : 24.163
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 90.9339
+  food : 76.0117
+  water : 87.5219
+  temp : 25.5762
+ nodes : 2
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 108.682
+  food : 81.3176
+  water : 90.0833
+  temp : 25.0837
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 89.7982
+  food : 78.1257
+  water : 88.9775
+  temp : 26.0537
+ nodes : 2
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy : 106.687
+  food : 85.2278
+  water : 91.8904
+  temp : 24.9759
+ nodes : 1
+status update on : 0x55b92da22ce0  -- dt : 0.1
+  energy : 107.052
+  food : 85.8836
+  water : 92.3713
+  temp : 24.4354
+ nodes : 1
+status update on : 0x55b92dace8c0  -- dt : 0.1
+  energy : 88.0357
+  food : 84.7978
+  water : 93.0532
+  temp : 25.2197
+ nodes : 2
+status update on : 0x55b92dae2ef0  -- dt : 0.1
+  energy : 101.409
+  food : 96.8019
+  water : 98.3727
+  temp : 25.1615
+ nodes : 1
+status update on : 0x55b92dcfe2f0  -- dt : 0.1
+  energy : 81.5076
+  food : 96.883
+  water : 98.4465
+  temp : 25.0558
+ nodes : 2
+physics cycle
+status update on : 0x7ffd54cd3df0  -- dt : 0.1
+  energy : 3.25005
+  food : -2.90002
+  water : -0.100007
+  temp : 124.55
+ nodes : 5
+status update on : 0x55b92da58160  -- dt : 0.1
+  energy : 101.321
+  food : -0.201035
+  water : 26.0501
+  temp : 29.9299
+ nodes : 2
+status update on : 0x55b92db12aa0  -- dt : 0.1
+  energy : 21.07
+  food : -2.40798
+  water : -1.78995
+  temp : 44.548
+ nodes : 4
+status update on : 0x55b92d8930a0  -- dt : 0.1
+  energy : 99.3532
+  food : -1.69279
+  water : 42.4452
+  temp : 29.7849
+ nodes : 3
+status update on : 0x55b92da62770  -- dt : 0.1
+  energy : 87.872
+  food : -3.021
+  water : 24.2512
+  temp : 24.4001
+ nodes : 3
+status update on : 0x55b92da541c0  -- dt : 0.1
+  energy : 119.18
+  food : 62.13
+  water : 79.56
+  temp : 23.25
+ nodes : 1
+status update on : 0x55b92dac7d10  -- dt : 0.1
+  energy : 87.734
+  food : 47.521
+  water : 73.001
+  temp : 22.746
+ nodes : 3
+status update on : 0x55b92dad25d0  -- dt : 0.1
+  energy : 79.2659
+  food : 59.869
+  water : 78.004
+  temp : 23.869
+ nodes : 3
+status update on : 0x55b92dad2d80  -- dt : 0.1
+  energy : 93.253
+  food : 70.884
+  water : 83.383
+  temp : 24.246
+ nodes : 2
+status update on : 0x55b92dac6270  -- dt : 0.1
+  energy : 97.3617
+  food : 28.4781
+  water : 60.2712
+  temp : 19.4314
+ nodes : 3
+status update on : 0x55b92da599a0  -- dt : 0.1
+  energy : 113.701
+  food : 73.1835
+  water : 86.0143
+  temp : 24.1295
+ nodes : 1
+status update on : 0x55b92da52030  -- dt : 0.1
+  energy : 91.8847
+  food : 73.9258
+  water : 86.4368
+  temp : 25.6263
+ nodes : 2
+status update on : 0x55b92da5b6b0  -- dt : 0.1
+  energy : 109.164
+  food : 80.2797
+  water : 89.5324
+  temp : 25.0884
+ nodes : 1
+status update on : 0x55b92da59a70  -- dt : 0.1
+  energy : 90.778
+  food : 75.9383
+  water : 87.8753
+  temp : 26.159
+ nodes : 2
+status update on : 0x55b92dac8900  -- dt : 0.1
+  energy 

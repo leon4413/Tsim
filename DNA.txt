@@ -1,5 +1,5 @@
 DNA is an array for the live_object class.
-array lenght: 9
+array lenght: 18
 
 
 0 - DNA_deviancy : 
@@ -54,3 +54,9 @@ from 0 to 1
 
 14 - water_sharing_percentual:
 from 0 to 1
+
+15 - color R
+
+16 - color G
+
+17 - color B
