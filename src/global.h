@@ -6,6 +6,9 @@
 #include <math.h>
 #include <stdlib.h>
 #include <vector>
+#include <string>
+#include <sstream>
+#include <fstream>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/OpenGL.hpp>

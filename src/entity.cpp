@@ -54,6 +54,11 @@ live_object::~live_object() {
  * Exec : update energy, food and water based on status 
  * problem :the rand function is not random enough, and can give rise to a growth sprint of up to 5 or 6 nodes*/
 void live_object::update_status(float dt_c) {
+
+
+	//((real_object*)object_array[i])->print_nodes(((real_object*)object_array[i])->root_node*, 0);
+	this->print_nodes(&(this->root_node), 0);
+
 	float dt = dt_c * pow(10,-6);
 
 	color[0] = DNA[15];
@@ -79,10 +84,6 @@ void live_object::update_status(float dt_c) {
 		energy -= 20.f;
 	}
 
-	if ( (float)(rand()%10000)/100 < DNA[7] * node_count && (energy > DNA[11]) ) { //reproduce
-		this->reproduce();
-	}
-
 	//std::cout << "status update on : " << this << "  -- dt : " << dt << "\n";
 	//std::cout << "  energy : " << energy << "\n  food : " << food << "\n  water : " << water << "\n  temp : " << temp << "\n nodes : " << node_count << "\n";
 
@@ -98,6 +99,12 @@ void live_object::update_status(float dt_c) {
 		this->eat_branch();
 		break;	
 	}
+
+	if ( (float)(rand()%10000)/100 < DNA[7] * node_count && (energy > DNA[11]) ) { //reproduce
+		this->reproduce();
+	}
+
+
 }
 
 /* METHOD
@@ -196,6 +203,8 @@ void live_object::eat_branch() {
 	while (!node->con.empty()) {
 		next_node_index = rand() % node->con.size(); //pick a random direction to follow
 		last = node;
+		std::cout << " Hello! " << node << "\n";
+		std::cout << " Node.con size : " << (int)node->con.size() << "\n";
 		node = (branch_node*)node->con[next_node_index];
 	}
 
@@ -217,6 +226,13 @@ void live_object::eat_branch() {
  * function : reproduce the plant, and create a new one
  * */
 void live_object::reproduce() {
+
+	std::cout << "REPRODUCTION \n";
+
+	if (energy < 20.f) { //check if there is enough energy
+		return;
+	}
+
 	live_object* offspring = new live_object;
 
 	float offset[3] = { 
@@ -247,6 +263,45 @@ void live_object::reproduce() {
 		offspring->DNA[i] += ((float)(rand() % 100)/100 - 0.5) * DNA[0];
 	}
 
+	std::cout << "REPRODUCTION END : " << offspring << "\n";
+
 }
 
+void live_object::print_nodes(branch_node* node, int depth) {
 
+	if (depth == 0) std::cout << "\n\n Tree \n";
+
+	for (int i = 0; i < depth; i++){
+		std::cout << "_";
+	}
+
+	std::cout << node << "\n";
+
+	for (int j = 0; j < (int)node->con.size(); j++){
+		this->print_nodes((branch_node*)node->con[j], depth+1);
+	}
+};
+
+void live_object::debug(){
+	//convert this pointer to string
+	std::stringstream ss;
+	ss << this;
+	std::string name = ss.str(); 
+
+	std::ofstream file;
+	file.open( "debug/" + name + ".debug" );
+
+	file << "\nDebug cycle --------------------\n"
+		<< "energy : " << energy << "\n" 
+		<< "food : " << food << "\n"
+		<< "water : " << water << "\n"
+		<< "temp : " << temp << "\n";
+	
+	file.close();
+	return;
+}
+
+void real_object::debug(){
+	//nothing
+	return;
+}

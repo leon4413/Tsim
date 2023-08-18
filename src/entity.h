@@ -28,6 +28,7 @@ class real_object {
 		float v_angle;
 
 		virtual void update_status(float dt);
+		virtual void debug();
 		virtual void render();
 
 		//physics update
@@ -66,7 +67,7 @@ class live_object : public real_object {
 			5.5,	//energy_use
 			10.5,	//food_use
 			5.5,	//water_use
-			0.5f,	//reproduction rate
+			0.3f,	//reproduction rate
 			25.0f,	//optimal temperature
 			5.0f,	//grow rate
 			20.0f,  //minimum energy to grow
@@ -93,6 +94,7 @@ class live_object : public real_object {
 		void update_status(float dt);
 		//method called to render the plant (secretly recursive function)
 		void render();
+		void debug();
 
 		//method called to grow one node (recursive function)
 		void grow(branch_node& node, int depth = 0);
@@ -104,6 +106,7 @@ class live_object : public real_object {
 		int node_count = 1;
 		//method called to count the number of nodes (recursive function)
 		int count_nodes(branch_node& node, int count = 1);
+		void print_nodes(branch_node* node, int depth);
 };
 
 #endif //ENTITY

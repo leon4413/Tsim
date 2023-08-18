@@ -61,6 +61,7 @@ int main() {
 
 				for (int i = 0; i < (int)object_array.size(); i++){
 					((real_object*)object_array[i])->update_status(PHY_TICK);
+					((real_object*)object_array[i])->debug();
 				}
 
 			};
